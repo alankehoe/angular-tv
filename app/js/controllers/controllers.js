@@ -74,6 +74,10 @@ function MainCtrl($scope, $http) {
     };
 };
 
+function MapCtrl($scope) {
+
+}
+
 function ErrorCtrl($scope) {
     $scope._error = function() {
         document.body.style.backgroundColor="#f3f3f3";
