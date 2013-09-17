@@ -1,6 +1,6 @@
 'use strict';
 
-function mainController($scope, $http) {
+function MainCtrl($scope, $http) {
 
     // Variables
     $scope.apiKey = "6f950ea6ed5ae98f5af25c6925488b5c";
@@ -73,4 +73,10 @@ function mainController($scope, $http) {
         }
     };
 };
+
+function ErrorCtrl($scope) {
+    $scope._error = function() {
+        document.body.style.backgroundColor="#f3f3f3";
+    }
+}
 

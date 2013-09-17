@@ -4,6 +4,6 @@
 angular.module('app', ['appFilters']).
     config(['$routeProvider', function($routeProvider) {
         $routeProvider.
-            when('/home', {templateUrl: 'partials/home.html', controller: 'mainController'}).
-            otherwise({redirectTo: '/home'});
+            when('/', {templateUrl: 'partials/home.html', controller: 'MainCtrl'}).
+            otherwise({templateUrl: 'partials/404.html', controller: 'ErrorCtrl'});
     }]);
