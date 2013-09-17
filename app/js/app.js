@@ -1,7 +1,7 @@
 //var app = angular.module('TVPremieresApp',[])
 'use strict';
 
-angular.module('app', ['appFilters']).
+angular.module('app', ['appFilters', "google-maps"]).
     config(['$routeProvider', function($routeProvider) {
         $routeProvider.
             when('/', {templateUrl: 'partials/home.html', controller: 'MainCtrl'}).
