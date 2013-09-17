@@ -1,8 +1,23 @@
+<style>
+    .well
+    {
+        position:absolute;
+        width:600px;
+        height:100px;
+        top: 50%;
+        left: 50%;
+        margin-top:-200px; /* negative number 1/2 height */
+        margin-left:-300px; /* negative number 1/2 width */
+        outline:1px solid #CCC;
+    }
+</style>
+
 <div class="container" ng-init="_error()">
-    <div class="hero-unit">
+    <div class="well">
         <div class="row-fluid">
             <div class="offset4 span4">
                 <h1>That's a 404</h1>
+                <a href="/app/index.html"><button type="button" class="btn btn-primary btn-large" >Take me home!</button><a/>
             </div>
         </div>
     </div>
