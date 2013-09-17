@@ -21,7 +21,6 @@ app.controller("mainController", function ($scope, $http) {
                     $scope.results.push(tvshow);
                 })
             })
-            console.log(data);
         }).error(function (error) {
 
             });
