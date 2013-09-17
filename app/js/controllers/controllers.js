@@ -1,3 +1,5 @@
+'use strict';
+
 function mainController($scope, $http) {
 
     // Variables
