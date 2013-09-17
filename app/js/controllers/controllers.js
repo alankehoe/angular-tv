@@ -1,4 +1,4 @@
-app.controller("mainController", function ($scope, $http) {
+function mainController($scope, $http) {
 
     // Variables
     $scope.apiKey = "6f950ea6ed5ae98f5af25c6925488b5c";
@@ -70,5 +70,5 @@ app.controller("mainController", function ($scope, $http) {
                 break;
         }
     };
-});
+};
 
