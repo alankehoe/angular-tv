@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('appFilters', []).
+angular.module('app.filters', []).
     filter('isGenre', function () {
         return function (input, genre) {
             if (typeof genre == 'undefined' || genre == null) {
