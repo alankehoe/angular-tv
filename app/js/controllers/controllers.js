@@ -2,7 +2,7 @@
 
 angular.module('app.controllers', [])
 
-    .controller('MainCtrl', ['$scope', '$http', function($scope, $http) {
+    .controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
 
         // Variables
         $scope.apiKey = "6f950ea6ed5ae98f5af25c6925488b5c";
@@ -41,11 +41,11 @@ angular.module('app.controllers', [])
                         $scope.availableNetworks.push(tvshow.show.network);
 
                         //Loop through each genre for this episode
-                        angular.forEach(tvshow.show.genres, function(genre, index) {
+                        angular.forEach(tvshow.show.genres, function (genre, index) {
                             //Only add to the availableGenres array if it doesn't already exist
                             var exists = false;
-                            angular.forEach($scope.availableGenres, function(avGenre, index) {
-                                if(avGenre == genre) {
+                            angular.forEach($scope.availableGenres, function (avGenre, index) {
+                                if (avGenre == genre) {
                                     exists = true;
                                 }
                             });
@@ -60,11 +60,11 @@ angular.module('app.controllers', [])
                 });
         };
 
-        $scope.setGenreFilter = function(genre) {
+        $scope.setGenreFilter = function (genre) {
             $scope.genreFilter = genre;
         };
 
-        $scope.customOrder = function(tvshow) {
+        $scope.customOrder = function (tvshow) {
             switch ($scope.orderField) {
                 case "Air Date":
                     return tvshow.episode.first_aired;
@@ -74,48 +74,4 @@ angular.module('app.controllers', [])
                     break;
             }
         };
-    }])
-
-
-    .controller('MapCtrl' ['$scope', '$timeout', '$log', function($scope, $timeout, $log) {
-        // Enable the new Google Maps visuals until it gets enabled by default.
-        // See http://googlegeodevelopers.blogspot.ca/2013/05/a-fresh-new-look-for-maps-api-for-all.html
-        google.maps.visualRefresh = true;
-
-        angular.extend($scope, {
-
-            position: {
-                coords: {
-                    latitude: 45,
-                    longitude: -73
-                }
-            },
-
-            /** the initial center of the map */
-            centerProperty: {
-                latitude: 45,
-                longitude: -73
-            },
-
-            /** the initial zoom level of the map */
-            zoomProperty: 4,
-
-            /** list of markers to put in the map */
-            markersProperty: [ {
-                latitude: 45,
-                longitude: -74
-            }],
-
-            // These 2 properties will be set when clicking on the map
-            clickedLatitudeProperty: null,
-            clickedLongitudeProperty: null,
-
-            eventsProperty: {
-                click: function (mapModel, eventName, originalEventArgs) {
-                    // 'this' is the directive's scope
-                    $log.log("user defined event on map directive with scope", this);
-                    $log.log("user defined event: " + eventName, mapModel, originalEventArgs);
-                }
-            }
-        });
     }])
