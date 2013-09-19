@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="769a99b5-9f3a-4c60-b703-3b183396760f" name="Default" comment="" />
+    <list default="true" id="769a99b5-9f3a-4c60-b703-3b183396760f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/jquery-search.html" afterPath="$PROJECT_DIR$/app/partials/jquery-search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="angular-tv.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379601628774" ignored="false" />
@@ -12,7 +15,7 @@
     <file path="/app.js" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379601156696" ignored="false" />
     <file path="/filters.js" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379426692692" ignored="false" />
     <file path="/banner" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379428766300" ignored="false" />
-    <file path="/home.html" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379596647378" ignored="false" />
+    <file path="/home.html" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379602250108" ignored="false" />
     <file path="/banner.html" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379428917354" ignored="false" />
     <file path="/404.html" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379431524735" ignored="false" />
     <file path="/controllers.js" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379601647625" ignored="false" />
@@ -20,6 +23,7 @@
     <file path="/directives.js" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379586055803" ignored="false" />
     <file path="/navigation.html" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379601296642" ignored="false" />
     <file path="/search.html" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379599939294" ignored="false" />
+    <file path="/search-filter.html" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379602292701" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +55,16 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="101" selection-start="1567" selection-end="1622" vertical-scroll-proportion="-19.615385">
+            <state line="18" column="65" selection-start="797" selection-end="797" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-search.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jquery-search.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/partials/jquery-search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="295" selection-end="480" vertical-scroll-proportion="-5.8846154">
+            <state line="12" column="78" selection-start="496" selection-end="496" vertical-scroll-proportion="0.24607961">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -88,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="70" selection-start="4095" selection-end="4095" vertical-scroll-proportion="1.6760234">
+            <state line="57" column="49" selection-start="2891" selection-end="2891" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +104,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="105" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+            <state line="8" column="8" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/partials/banner.html" />
         <option value="$PROJECT_DIR$/app/partials/searchBar.html" />
         <option value="$PROJECT_DIR$/app/partials/404.html" />
         <option value="$PROJECT_DIR$/app/lib/maps/angular-google-maps.js" />
@@ -137,14 +140,15 @@
         <option value="$PROJECT_DIR$/app/partials/map.html" />
         <option value="$PROJECT_DIR$/app/js/directives/directives.js" />
         <option value="$PROJECT_DIR$/app/lib/jQuery/jquery-1-10-2.js" />
-        <option value="$PROJECT_DIR$/app/partials/home.html" />
         <option value="$PROJECT_DIR$/app/partials/search.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/search.js" />
-        <option value="$PROJECT_DIR$/app/partials/jquery-search.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/partials/navigation.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/app/partials/search-filter.html" />
+        <option value="$PROJECT_DIR$/app/partials/home.html" />
+        <option value="$PROJECT_DIR$/app/partials/jquery-search.html" />
       </list>
     </option>
   </component>
@@ -165,7 +169,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -352,42 +356,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-tv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-tv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-tv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-tv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -696,22 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="78" selection-start="906" selection-end="906" vertical-scroll-proportion="-11.115385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/jquery-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="295" selection-end="480" vertical-scroll-proportion="-5.8846154">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/banner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="6" selection-start="107" selection-end="107" vertical-scroll-proportion="0.08202654">
@@ -726,26 +678,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="105" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/jQuery/jquery.tokeninput.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="567" column="9" selection-start="18282" selection-end="18282" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="101" selection-start="1567" selection-end="1622" vertical-scroll-proportion="-19.615385">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,10 +694,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="78" selection-start="906" selection-end="906" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="70" selection-start="4095" selection-end="4095" vertical-scroll-proportion="1.6760234">
+        <state line="57" column="49" selection-start="2891" selection-end="2891" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="65" selection-start="797" selection-end="797" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/jquery-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="78" selection-start="496" selection-end="496" vertical-scroll-proportion="0.24607961">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
