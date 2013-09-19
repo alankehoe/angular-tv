@@ -75,3 +75,16 @@ angular.module('app.controllers', [])
             }
         };
     }])
+
+    .controller('SearchCtrl', ['$scope', function($scope) {
+        $(document).ready(function () {
+            $("#search-here").tokenInput("http://shell.loopj.com/tokeninput/tvshows.php", {
+                theme: "facebook"
+            });
+        });
+    }])
+
+    .controller('NavCtrl', ['$scope', function($scope) {
+//        document.body.style.backgroundColor="#f3f3f3"; #
+
+    }])
