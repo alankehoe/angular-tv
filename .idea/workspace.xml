@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="769a99b5-9f3a-4c60-b703-3b183396760f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/jquery-search.html" afterPath="$PROJECT_DIR$/app/partials/jquery-search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-tv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379602491132" ignored="false" />
+    <file path="/Dummy.txt" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379602702351" ignored="false" />
     <file path="/index.html" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379599206800" ignored="false" />
     <file path="/mainController.js" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379426361798" ignored="false" />
     <file path="/genreFilter.js" changelist="769a99b5-9f3a-4c60-b703-3b183396760f" time="1379420778244" ignored="false" />
@@ -61,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-search.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jquery-search.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/jquery-search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="51" selection-start="366" selection-end="366" vertical-scroll-proportion="0.16405308">
+            <state line="8" column="51" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.230769">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -92,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="32" selection-start="3611" selection-end="3611" vertical-scroll-proportion="0.0">
+            <state line="65" column="93" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.22456141">
               <folding />
             </state>
           </provider>
@@ -521,7 +520,11 @@
       <created>1379602494664</created>
       <updated>1379602494664</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="forgot to take out script this is now being handled by the controller like it should be">
+      <created>1379602705008</created>
+      <updated>1379602705008</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -589,7 +592,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tidy up code a bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot to take out script this is now being handled by the controller like it should be" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -626,6 +629,7 @@
     <MESSAGE value="Added navigation ctrl" />
     <MESSAGE value="Update the currently active link" />
     <MESSAGE value="Tidy up code a bit" />
+    <MESSAGE value="forgot to take out script this is now being handled by the controller like it should be" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -713,6 +717,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/jquery-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="51" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.230769">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/navigation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="23" selection-start="921" selection-end="921" vertical-scroll-proportion="-12.423077">
@@ -722,17 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="32" selection-start="3611" selection-end="3611" vertical-scroll-proportion="0.0">
+        <state line="65" column="93" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.22456141">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/jquery-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="51" selection-start="366" selection-end="366" vertical-scroll-proportion="0.16405308">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
