@@ -1,7 +1,8 @@
-//var app = angular.module('TVPremieresApp',[])
+'use strict';
 
-angular.module('TVPremieresApp', ['TVPremieresApp.filters']).
+angular.module('app', ['app.controllers', 'app.filters', 'app.directives']).
     config(['$routeProvider', function($routeProvider) {
-        $routeProvider.when('/', {templateUrl: 'index.html', controller: 'mainController'});
-        $routeProvider.otherwise({redirectTo: '/'});
+        $routeProvider.
+            when('/', {templateUrl: 'partials/home.html', controller: 'MainCtrl'}).
+            otherwise({redirectTo: '/'});
     }]);
