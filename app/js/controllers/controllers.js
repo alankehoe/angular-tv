@@ -85,6 +85,14 @@ angular.module('app.controllers', [])
     }])
 
     .controller('NavCtrl', ['$scope', function($scope) {
-//        document.body.style.backgroundColor="#f3f3f3"; #
-
+        // When we click on the LI
+        $("li").click(function(){
+            // If this isn't already active
+            if (!$(this).hasClass("active")) {
+                // Remove the class from anything that is active
+                $("li.active").removeClass("active");
+                // And make this active
+                $(this).addClass("active");
+            }
+        });
     }])
